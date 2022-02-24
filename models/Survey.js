@@ -3,10 +3,10 @@
 const mongoose = require("mongoose");
 
 const SurveySchema = new mongoose.Schema({
-  ip: {
+  /* ip: {
     type: String,
     required: true,
-  },
+  }, */
   name: {
     type: String,
     required: true,
